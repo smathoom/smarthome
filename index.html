@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شركة سمارت هوم - Smart Home</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #0b3d91;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #07407e;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section h2 {
+      border-bottom: 3px solid #0b3d91;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .service-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+    }
+    .service-card img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+    footer {
+      background-color: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 1rem;
+    }
+    /* Responsive */
+    @media (max-width: 700px) {
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+      .service-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>شركة سمارت هوم</h1>
+  <p>الابتكار والراحة لمنزلك الذكي</p>
+</header>
+
+<nav>
+  <a href="#home">الرئيسية</a>
+  <a href="#services">خدماتنا</a>
+  <a href="#contact">تواصل معنا</a>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>مرحباً بكم في شركة سمارت هوم</h2>
+    <p>
+      نقدم أحدث الحلول التقنية للمنزل الذكي لتحويل منزلك إلى بيئة ذكية مريحة وآمنة. 
+      من أنظمة الإضاءة الذكية إلى التحكم في الأجهزة الكهربائية، نحن هنا لخدمتك.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>خدماتنا</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3208/3208757.png" alt="إضاءة ذكية" />
+        <h3>نظام الإضاءة الذكي</h3>
+        <p>تحكم كامل بالإضاءة في منزلك عبر تطبيق الهاتف بسهولة وراحة.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="أمان المنزل" />
+        <h3>أنظمة الأمان والمراقبة</h3>
+        <p>كاميرات مراقبة وأنظمة إنذار متطورة لحماية منزلك على مدار الساعة.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2917/2917242.png" alt="التحكم بالأجهزة" />
+        <h3>التحكم في الأجهزة الكهربائية</h3>
+        <p>تشغيل وإيقاف الأجهزة المنزلية الذكية من أي مكان وفي أي وقت.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <p>لأي استفسار أو طلب خدمة، تواصل معنا عبر:</p>
+    <ul>
+      <li>الهاتف: 0770-123-4567</li>
+      <li>البريد الإلكتروني: info@smarthome.com</li>
+      <li>العنوان: بغداد، العراق</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 شركة سمارت هوم - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
+
